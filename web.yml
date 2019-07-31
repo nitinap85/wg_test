@@ -1,2 +1,5 @@
-hi 
-adding data for test
+- hosts: localhost
+  tasks:
+    - copy:
+        dest: /etc/hi.txt
+        content: "hiiii hello"
